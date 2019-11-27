@@ -1,0 +1,85 @@
+nav{
+    border-radius:0px !important;
+    background-color:black !important;
+    padding: 40px 10px;
+    font-size: 18px;
+    overflow: hidden;
+    
+    transition: 0.4s;
+    
+}
+
+nav a{
+  color: white !important;
+}
+
+nav a :hover{
+  color: red !important;
+}
+
+nav img{
+    margin-top: -25px;
+    height: auto;
+    width: auto;
+    transition: 0.4s;
+
+}
+
+.navbar-brand{
+    margin-top:-20px;
+    margin-right:100px;
+}
+
+.navbar .navbar-inverse a
+{
+    color: white;
+
+}
+
+ul .navbar a:hover {
+    background-color: #ddd;
+    color:red;
+  }
+
+ ul .navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+
+  .imgtext {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  .imgtext img{
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  
+  }
+
+  .centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .centered h2{
+      font-size:50px;
+  }
+
+  .centered p{
+      font-size:30px;
+  }
+
+  .mc{
+    background-color: black;
+  }
+
+div{
+  overflow: hidden;
+}
+  

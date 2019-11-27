@@ -1,0 +1,50 @@
+nav{
+    border-radius:0px !important;
+    background-color:black !important;
+    padding: 20px 10px;
+    font-size: 18px;
+    transition: 0.4s;
+    margin-bottom: 0px !important;
+    position: sticky;
+    display: block;
+    top: 0;
+
+}
+
+
+
+.navbar-right a{
+  color: white;
+}
+
+.navbar-right a:hover{
+  color: red;
+}
+
+
+nav img{
+    margin-top: -12px;
+    height: auto;
+    width: 80%;;
+    transition: 0.4s;
+}
+
+.navbar-brand{
+    margin-top:-20px;
+    margin-right:100px;
+}
+
+.navbar .navbar-inverse a
+{
+    color: white;
+
+}
+
+ul .navbar a:hover {
+    background-color: #ddd;
+    color:red;
+  }
+
+.active a{
+  color:rgb(146, 0, 0);
+}

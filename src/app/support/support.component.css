@@ -1,0 +1,29 @@
+.supportbanner{
+    
+    background-color: black;
+}
+
+.imgtext {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .centered h2{
+      font-size : 5vw;;
+     
+    
+    }
+
+  .centered p{
+      font-size :2vw;
+  }

@@ -1,0 +1,48 @@
+.imgtext {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  .imgtext img{
+    opacity: 0.3;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  
+  }
+
+  .carousel-inner{
+      text-align: center;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .centered h2{
+      font-size:50px;
+  }
+
+  .centered p{
+      font-size:30px;
+  }
+
+#wlcm{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+
+#essen{
+  background: rgb(2,0,36);
+  height: 50px;
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(250,11,11,1) 100%);
+}
+
+.mc{
+  background-color: black;
+}
